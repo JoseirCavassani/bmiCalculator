@@ -1,0 +1,2 @@
+# bmiCalculator
+academic project
