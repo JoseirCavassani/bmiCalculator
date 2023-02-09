@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+    background-color: whitesmoke;
+}
+
+/*  */
+.main {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 100vh;
+}
+
+.title {
+    /* background-color: yellow; */
+    width: 250px;
+    height: 90px;
+    padding: 5px;
+    text-align: center;
+    font-size: 180%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: whitesmoke;
+}
+
+/*  */
+.box-bmi {
+    /* background-color: green; */
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid black;
+}
+
+form {
+    width: 95%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: brown; */
+    gap: 5px;
+}
+
+label {
+    /* background-color: darkgoldenrod; */
+    width: 95%;
+    font-size: 30px;
+    margin-top: 35px;
+    background-color: whitesmoke;
+}
+
+.input {
+    background-color: whitesmoke;
+    width: 95%;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+.result {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 95%;
+    height: 50px;
+    border: none;
+    /* border-bottom: 1px solid black; */
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
+
+/*  */
+/* .box-btn {
+    background-color: burlywood;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+} */
+
+.btn {
+    background-color: black;
+    color: aliceblue;
+    height: 60px;
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    font-size: 150%;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
