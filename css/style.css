@@ -12,13 +12,14 @@
 
 /*  */
 .main {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px;
     height: 100vh;
+
 }
 
 .title {
@@ -30,9 +31,11 @@
     font-size: 180%;
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
-    border-bottom: none;
-    background-color: whitesmoke;
+    align-items: center;
+    border: none;
+    background-color: #355C7D;
+    color: whitesmoke;
+    border-radius: 10px;
 }
 
 /*  */
@@ -44,7 +47,11 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    border: none;
+    background-color: #355C7D;
+    border-radius: 10px;
+
 }
 
 form {
@@ -56,6 +63,7 @@ form {
     align-items: center;
     /* background-color: brown; */
     gap: 5px;
+
 }
 
 label {
@@ -63,7 +71,8 @@ label {
     width: 95%;
     font-size: 30px;
     margin-top: 35px;
-    background-color: whitesmoke;
+    color: whitesmoke;
+    background-color: #355C7D;
 }
 
 .input {
@@ -74,22 +83,24 @@ label {
     border-bottom: 1px solid black;
     padding: 5px;
     font-size: 25px;
+    border-radius: 10px;
 
 }
 
 .result {
-    background-color: whitesmoke;
     border: 1px solid black;
     width: 95%;
     height: 50px;
     border: none;
-    /* border-bottom: 1px solid black; */
     margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    font-size: 25px;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: #355C7D;
+
 }
 
 /*  */
@@ -103,17 +114,20 @@ label {
 } */
 
 .btn {
-    background-color: black;
-    color: aliceblue;
+    background-color: #F67280;
+    color: whitesmoke;
     height: 60px;
     width: 95%;
     border: none;
     border-radius: 10px;
     font-size: 150%;
+    font-weight: 500;
 }
 
 .btn:hover {
-    background-color: whitesmoke;
-    color: black;
+    background-color: #C06C84;
+    color: whitesmoke;
     border: 1px solid black;
+    border: none;
+
 }
